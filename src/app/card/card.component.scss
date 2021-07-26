@@ -1,0 +1,41 @@
+$card-background-color: #fefefe;
+$card-title-text-color: #535257;
+$card-content-text-color: #8d8d8d;
+
+.card-container {
+    height: 200px;
+    width: 300px;
+    background: $card-background-color;
+
+    padding: 20px;
+    position: relative;
+
+    box-shadow: 1px 5px 10px 6px rgba(0, 0, 0, 0.082);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.card-title {
+    font-size: 22px;
+    font-weight: 600;
+    color: $card-title-text-color;
+}
+
+.card-content {
+    font-size: 14px;
+    font-weight: 400;
+    color: $card-title-text-color;
+}
+
+.icon {
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
