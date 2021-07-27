@@ -39,3 +39,9 @@ $card-content-text-color: #8d8d8d;
     bottom: 0;
     right: 0;
 }
+
+@media (max-width: 645px) {
+    .card-container {
+        width: 100%;
+    }
+}

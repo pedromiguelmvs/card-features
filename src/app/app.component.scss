@@ -8,9 +8,9 @@ $presentation-text-color: #9e9e9e;
 }
 
 .container {
-    height: 100vh;
     @include flex(column, center, center);
     gap: 20px;
+    padding: 30px 0px;
 }
 
 .header {
@@ -46,4 +46,31 @@ $presentation-text-color: #9e9e9e;
     display: flex;
     flex-direction: column;
     gap: 30px;
+}
+
+@media (max-width: 965px) {
+    .cards {
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .multiple-cards {
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 645px) {
+    .cards * {
+        width: 100%;
+    }
+
+    .multiple-cards {
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .multiple-cards * {
+        width: 100%;
+    }
 }
