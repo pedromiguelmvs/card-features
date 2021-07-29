@@ -1,6 +1,6 @@
 # Card Features
 
-O projeto tem como objetivo registrar meus conceitos iniciais no uso do framework Angular utilizando as features basicas da ferramenta.
+O projeto tem como objetivo registrar meus conceitos iniciais no uso do framework Angular utilizando as features basicas da ferramenta. Deploy do projeto [clicando aqui](https://card-features-snowy.vercel.app/).
 
 ## Ferramentas utilizadas
 
